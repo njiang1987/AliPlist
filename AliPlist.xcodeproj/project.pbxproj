@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B1803B61EEE6719008F8745 /* AliPlist.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 7B1803B51EEE6719008F8745 /* AliPlist.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B1803BA1EEE6719008F8745 /* AliPlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B1803B91EEE6719008F8745 /* AliPlist.cpp */; };
+		7B1803CB1EEE6733008F8745 /* base64.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 7B1803C11EEE6733008F8745 /* base64.hpp */; };
+		7B1803CC1EEE6733008F8745 /* Plist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B1803C21EEE6733008F8745 /* Plist.cpp */; };
+		7B1803CD1EEE6733008F8745 /* Plist.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 7B1803C31EEE6733008F8745 /* Plist.hpp */; };
+		7B1803CE1EEE6733008F8745 /* PlistDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B1803C41EEE6733008F8745 /* PlistDate.cpp */; };
+		7B1803CF1EEE6733008F8745 /* PlistDate.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 7B1803C51EEE6733008F8745 /* PlistDate.hpp */; };
+		7B1803D11EEE6733008F8745 /* pugiconfig.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 7B1803C71EEE6733008F8745 /* pugiconfig.hpp */; };
+		7B1803D21EEE6733008F8745 /* pugixml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B1803C81EEE6733008F8745 /* pugixml.cpp */; };
+		7B1803D31EEE6733008F8745 /* pugixml.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 7B1803C91EEE6733008F8745 /* pugixml.hpp */; };
+		7B1803E21EEEAD71008F8745 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B1803E11EEEAD71008F8745 /* main.mm */; };
+		7B1803E61EEEAD7D008F8745 /* libAliPlist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1803B21EEE6719008F8745 /* libAliPlist.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7B1803DD1EEEAD71008F8745 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7B1803B21EEE6719008F8745 /* libAliPlist.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAliPlist.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B1803B51EEE6719008F8745 /* AliPlist.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AliPlist.hpp; sourceTree = "<group>"; };
+		7B1803B91EEE6719008F8745 /* AliPlist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AliPlist.cpp; sourceTree = "<group>"; };
+		7B1803C11EEE6733008F8745 /* base64.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = base64.hpp; sourceTree = "<group>"; };
+		7B1803C21EEE6733008F8745 /* Plist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Plist.cpp; sourceTree = "<group>"; };
+		7B1803C31EEE6733008F8745 /* Plist.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Plist.hpp; sourceTree = "<group>"; };
+		7B1803C41EEE6733008F8745 /* PlistDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlistDate.cpp; sourceTree = "<group>"; };
+		7B1803C51EEE6733008F8745 /* PlistDate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PlistDate.hpp; sourceTree = "<group>"; };
+		7B1803C71EEE6733008F8745 /* pugiconfig.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pugiconfig.hpp; sourceTree = "<group>"; };
+		7B1803C81EEE6733008F8745 /* pugixml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pugixml.cpp; sourceTree = "<group>"; };
+		7B1803C91EEE6733008F8745 /* pugixml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pugixml.hpp; sourceTree = "<group>"; };
+		7B1803DF1EEEAD71008F8745 /* AliPlistTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AliPlistTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B1803E11EEEAD71008F8745 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		7B1803EB1EEF8B64008F8745 /* binaryExample1.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = binaryExample1.plist; sourceTree = "<group>"; };
+		7B1803EC1EEF8B64008F8745 /* XMLExample1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XMLExample1.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B1803AF1EEE6719008F8745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B1803DC1EEEAD71008F8745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B1803E61EEEAD7D008F8745 /* libAliPlist.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B1803A91EEE6719008F8745 = {
+			isa = PBXGroup;
+			children = (
+				7B1803B41EEE6719008F8745 /* AliPlist */,
+				7B1803E01EEEAD71008F8745 /* AliPlistTest */,
+				7B1803B31EEE6719008F8745 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B1803B31EEE6719008F8745 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B1803B21EEE6719008F8745 /* libAliPlist.a */,
+				7B1803DF1EEEAD71008F8745 /* AliPlistTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B1803B41EEE6719008F8745 /* AliPlist */ = {
+			isa = PBXGroup;
+			children = (
+				7B1803C01EEE6733008F8745 /* src */,
+				7B1803B51EEE6719008F8745 /* AliPlist.hpp */,
+				7B1803B91EEE6719008F8745 /* AliPlist.cpp */,
+			);
+			path = AliPlist;
+			sourceTree = "<group>";
+		};
+		7B1803C01EEE6733008F8745 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7B1803C11EEE6733008F8745 /* base64.hpp */,
+				7B1803C21EEE6733008F8745 /* Plist.cpp */,
+				7B1803C31EEE6733008F8745 /* Plist.hpp */,
+				7B1803C41EEE6733008F8745 /* PlistDate.cpp */,
+				7B1803C51EEE6733008F8745 /* PlistDate.hpp */,
+				7B1803C71EEE6733008F8745 /* pugiconfig.hpp */,
+				7B1803C81EEE6733008F8745 /* pugixml.cpp */,
+				7B1803C91EEE6733008F8745 /* pugixml.hpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		7B1803E01EEEAD71008F8745 /* AliPlistTest */ = {
+			isa = PBXGroup;
+			children = (
+				7B1803EB1EEF8B64008F8745 /* binaryExample1.plist */,
+				7B1803EC1EEF8B64008F8745 /* XMLExample1.plist */,
+				7B1803E11EEEAD71008F8745 /* main.mm */,
+			);
+			path = AliPlistTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7B1803B01EEE6719008F8745 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B1803CB1EEE6733008F8745 /* base64.hpp in Headers */,
+				7B1803D11EEE6733008F8745 /* pugiconfig.hpp in Headers */,
+				7B1803B61EEE6719008F8745 /* AliPlist.hpp in Headers */,
+				7B1803CF1EEE6733008F8745 /* PlistDate.hpp in Headers */,
+				7B1803CD1EEE6733008F8745 /* Plist.hpp in Headers */,
+				7B1803D31EEE6733008F8745 /* pugixml.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7B1803B11EEE6719008F8745 /* AliPlist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B1803BD1EEE6719008F8745 /* Build configuration list for PBXNativeTarget "AliPlist" */;
+			buildPhases = (
+				7B1803AE1EEE6719008F8745 /* Sources */,
+				7B1803AF1EEE6719008F8745 /* Frameworks */,
+				7B1803B01EEE6719008F8745 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliPlist;
+			productName = AliPlist;
+			productReference = 7B1803B21EEE6719008F8745 /* libAliPlist.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7B1803DE1EEEAD71008F8745 /* AliPlistTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B1803E51EEEAD71008F8745 /* Build configuration list for PBXNativeTarget "AliPlistTest" */;
+			buildPhases = (
+				7B1803DB1EEEAD71008F8745 /* Sources */,
+				7B1803DC1EEEAD71008F8745 /* Frameworks */,
+				7B1803DD1EEEAD71008F8745 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliPlistTest;
+			productName = AliPlistTest;
+			productReference = 7B1803DF1EEEAD71008F8745 /* AliPlistTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B1803AA1EEE6719008F8745 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jingsong.jn;
+				TargetAttributes = {
+					7B1803B11EEE6719008F8745 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					7B1803DE1EEEAD71008F8745 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7B1803AD1EEE6719008F8745 /* Build configuration list for PBXProject "AliPlist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7B1803A91EEE6719008F8745;
+			productRefGroup = 7B1803B31EEE6719008F8745 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B1803B11EEE6719008F8745 /* AliPlist */,
+				7B1803DE1EEEAD71008F8745 /* AliPlistTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B1803AE1EEE6719008F8745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B1803D21EEE6733008F8745 /* pugixml.cpp in Sources */,
+				7B1803CE1EEE6733008F8745 /* PlistDate.cpp in Sources */,
+				7B1803CC1EEE6733008F8745 /* Plist.cpp in Sources */,
+				7B1803BA1EEE6719008F8745 /* AliPlist.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B1803DB1EEEAD71008F8745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B1803E21EEEAD71008F8745 /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7B1803BB1EEE6719008F8745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = /usr/local/lib/;
+				SYSTEM_HEADER_SEARCH_PATHS = /usr/local/include;
+			};
+			name = Debug;
+		};
+		7B1803BC1EEE6719008F8745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = /usr/local/lib/;
+				SYSTEM_HEADER_SEARCH_PATHS = /usr/local/include;
+			};
+			name = Release;
+		};
+		7B1803BE1EEE6719008F8745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				HEADER_SEARCH_PATHS = "${PROJECT_ROOT}/include";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B1803BF1EEE6719008F8745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				HEADER_SEARCH_PATHS = "${PROJECT_ROOT}/include";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7B1803E31EEEAD71008F8745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B1803E41EEEAD71008F8745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B1803AD1EEE6719008F8745 /* Build configuration list for PBXProject "AliPlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B1803BB1EEE6719008F8745 /* Debug */,
+				7B1803BC1EEE6719008F8745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B1803BD1EEE6719008F8745 /* Build configuration list for PBXNativeTarget "AliPlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B1803BE1EEE6719008F8745 /* Debug */,
+				7B1803BF1EEE6719008F8745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B1803E51EEEAD71008F8745 /* Build configuration list for PBXNativeTarget "AliPlistTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B1803E31EEEAD71008F8745 /* Debug */,
+				7B1803E41EEEAD71008F8745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B1803AA1EEE6719008F8745 /* Project object */;
+}
