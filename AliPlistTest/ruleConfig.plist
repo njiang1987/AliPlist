@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WarningsAsErrors</key>
+	<true/>
+	<key>EnableAllDiagnostic</key>
+	<false/>
+	<key>rule_severity</key>
+	<dict>
+		<key>enum_have_same_prefix</key>
+		<string>Error</string>
+		<key>method_name_contains_ptr_or_pointer</key>
+		<string>Warning</string>
+	</dict>
+</dict>
+</plist>

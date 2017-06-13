@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #include "AliPlist.hpp"
 #include "Plist.hpp"
-#include <map>
 
 using namespace std;
 
@@ -19,6 +18,12 @@ int main(int argc, const char * argv[]) {
         parser.readFile("/Users/jingsong.jn/Work/AliPlist/AliPlistTest/XMLExample1.plist");
         string testString = parser.getStringValue("testString");
         cout<<testString<<endl;
+        
+        bool testBool = parser.getBoolValue("testBoolTrue");
+        cout<<testBool<<endl;
+        
+        map<string, string> dict = parser.getDictionaryValue("testDict");
+        cout<<"1"<<endl;
     }
     return 0;
 }

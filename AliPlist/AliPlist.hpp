@@ -11,6 +11,7 @@
 #define AliPlist_
 
 #include <string>
+#include <map>
 
 /* The classes below are exported */
 #pragma GCC visibility push(default)
@@ -26,6 +27,8 @@ namespace AliPlist
     public:
         void readFile(std::string file);
         std::string getStringValue(std::string key);
+        bool getBoolValue(std::string key);
+        std::map<std::string, std::string> getDictionaryValue(std::string key);
     };
 }
 

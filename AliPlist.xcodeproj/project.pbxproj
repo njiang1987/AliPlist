@@ -21,6 +21,16 @@
 		7B1803E61EEEAD7D008F8745 /* libAliPlist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1803B21EEE6719008F8745 /* libAliPlist.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7B1803FA1EEFC098008F8745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B1803AA1EEE6719008F8745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B1803B11EEE6719008F8745;
+			remoteInfo = AliPlist;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		7B1803DD1EEEAD71008F8745 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -49,6 +59,7 @@
 		7B1803E11EEEAD71008F8745 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		7B1803EB1EEF8B64008F8745 /* binaryExample1.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = binaryExample1.plist; sourceTree = "<group>"; };
 		7B1803EC1EEF8B64008F8745 /* XMLExample1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XMLExample1.plist; sourceTree = "<group>"; };
+		7B1803F91EEF969A008F8745 /* ruleConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ruleConfig.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +127,7 @@
 		7B1803E01EEEAD71008F8745 /* AliPlistTest */ = {
 			isa = PBXGroup;
 			children = (
+				7B1803F91EEF969A008F8745 /* ruleConfig.plist */,
 				7B1803EB1EEF8B64008F8745 /* binaryExample1.plist */,
 				7B1803EC1EEF8B64008F8745 /* XMLExample1.plist */,
 				7B1803E11EEEAD71008F8745 /* main.mm */,
@@ -170,6 +182,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				7B1803FB1EEFC098008F8745 /* PBXTargetDependency */,
 			);
 			name = AliPlistTest;
 			productName = AliPlistTest;
@@ -234,6 +247,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B1803FB1EEFC098008F8745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B1803B11EEE6719008F8745 /* AliPlist */;
+			targetProxy = 7B1803FA1EEFC098008F8745 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7B1803BB1EEE6719008F8745 /* Debug */ = {
